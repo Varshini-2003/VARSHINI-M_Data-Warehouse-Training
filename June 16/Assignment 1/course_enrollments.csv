@@ -1,0 +1,7 @@
+EnrollmentID,StudentName,CourseName,Category,EnrollDate,ProgressPercent,Rating,Status
+ENR001,Aditya,Python for Beginners,Programming,2024-05-10,80,4.5,Active
+ENR002,Simran,Data Analysis with Excel,Analytics,2024-05-12,100,4.7,Completed
+ENR003,Aakash,Power BI Essentials,Analytics,2024-05-13,30,3.8,Active
+ENR004,Neha,Java Basics,Programming,2024-05-15,0,,Inactive
+ENR005,Zara,Machine Learning 101,AI,2024-05-17,60,4.2,Active
+ENR006,Ibrahim,Python for Beginners,Programming,2024-05-18,90,4.6,Completed
