@@ -1,0 +1,6 @@
+SubscriptionID,UserID,PlanType,StartDate,EndDate,PriceUSD,IsActive,AutoRenew
+SUB001,U001,Basic,2024-01-01,2024-04-01,30.0,true,true
+SUB002,U002,Pro,2024-02-15,2024-05-15,90.0,true,false
+SUB003,U003,Pro,2024-03-10,2024-06-10,90.0,false,false
+SUB004,U001,Premium,2024-04-05,2024-07-05,120.0,true,true
+SUB005,U004,Basic,2024-01-20,2024-04-20,30.0,false,false

@@ -1,0 +1,6 @@
+UserID,EventTime,EventType,FeatureUsed
+U001,2024-04-07 10:22:00,login,Dashboard
+U002,2024-04-08 11:10:00,upload,Reports
+U003,2024-04-09 09:45:00,download,Analytics
+U001,2024-04-10 16:00:00,logout,Dashboard
+U004,2024-04-11 12:00:00,login,Dashboard
