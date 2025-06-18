@@ -1,0 +1,7 @@
+EmployeeID,Name,Department,Project,WorkHours,WorkDate,Location,Mode
+E101,Anita,IT,Alpha,8,2024-05-01,Bangalore,Remote
+E102,Raj,HR,Beta,7,2024-05-01,Mumbai,Onsite
+E103,John,Finance,Alpha,5,2024-05-02,Delhi,Remote
+E101,Anita,IT,Alpha,9,2024-05-03,Bangalore,Remote
+E104,Meena,IT,Gamma,6,2024-05-03,Hyderabad,Onsite
+E102,Raj,HR,Beta,8,2024-05-04,Mumbai,Remote
