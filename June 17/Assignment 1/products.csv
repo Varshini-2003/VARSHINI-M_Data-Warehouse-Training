@@ -1,0 +1,5 @@
+ProductID,ProductName,Category,Stock,ReorderLevel
+P1001,Laptop,Electronics,5,2
+P1002,Phone,Electronics,10,3
+P1003,Tablet,Electronics,7,2
+P1004,Keyboard,Accessories,15,5
