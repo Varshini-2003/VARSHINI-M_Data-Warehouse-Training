@@ -1,0 +1,7 @@
+TransactionID,Customer,City,Product,Category,Quantity,UnitPrice,TotalPrice,TransactionDate,PaymentMode
+T1001,Ali,Mumbai,Laptop,Electronics,1,70000,70000,2024-01-15,Card
+T1002,Neha,Bangalore,Tablet,Electronics,2,30000,60000,2024-01-20,UPI
+T1003,Ravi,Hyderabad,Desk,Furniture,1,15000,15000,2024-02-10,Net Banking
+T1004,Zoya,Delhi,Chair,Furniture,4,5000,20000,2024-02-12,Card
+T1005,Karan,Mumbai,Phone,Electronics,1,50000,50000,2024-02-15,Card
+T1006,Farah,Delhi,Mouse,Electronics,3,1000,3000,2024-02-18,Cash
