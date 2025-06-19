@@ -1,0 +1,6 @@
+ItemID,ItemName,Category,Warehouse,StockQty,ReorderLevel,LastRestocked,UnitPrice,Supplier
+I001,LED TV,Electronics,WarehouseA,50,20,2024-03-15,30000,AVTech
+I002,Laptop,Electronics,WarehouseB,10,15,2024-04-01,70000,TechWorld
+I003,Office Chair,Furniture,WarehouseA,40,10,2024-03-25,6000,ChairCo
+I004,Refrigerator,Appliances,WarehouseC,5,10,2024-02-20,25000,FreezeIt
+I005,Printer,Electronics,WarehouseB,3,5,2024-03-30,8000,PrintFast
