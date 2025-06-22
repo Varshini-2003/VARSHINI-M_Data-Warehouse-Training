@@ -1,0 +1,504 @@
+[
+  {
+    "movement_id": 1,
+    "product_id": 5,
+    "warehouse_id": 4,
+    "supplier": "GadgetWorld",
+    "quantity": 68,
+    "movement_type": "IN",
+    "movement_date": "2025-06-07T00:00:00",
+    "reason": "New stock"
+  },
+  {
+    "movement_id": 2,
+    "product_id": 10,
+    "warehouse_id": 1,
+    "supplier": "TechGear Ltd.",
+    "quantity": 17,
+    "movement_type": "IN",
+    "movement_date": "2025-06-16T00:00:00",
+    "reason": "Damaged return"
+  },
+  {
+    "movement_id": 3,
+    "product_id": 5,
+    "warehouse_id": 3,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 30,
+    "movement_type": "IN",
+    "movement_date": "2025-06-12T00:00:00",
+    "reason": "Replacement"
+  },
+  {
+    "movement_id": 4,
+    "product_id": 8,
+    "warehouse_id": 1,
+    "supplier": "DailyUse Inc.",
+    "quantity": 48,
+    "movement_type": "IN",
+    "movement_date": "2025-06-06T00:00:00",
+    "reason": "New product"
+  },
+  {
+    "movement_id": 5,
+    "product_id": 2,
+    "warehouse_id": 4,
+    "supplier": "DailyUse Inc.",
+    "quantity": 100,
+    "movement_type": "IN",
+    "movement_date": "2025-06-07T00:00:00",
+    "reason": "New product"
+  },
+  {
+    "movement_id": 6,
+    "product_id": 5,
+    "warehouse_id": 3,
+    "supplier": "DailyUse Inc.",
+    "quantity": 104,
+    "movement_type": "IN",
+    "movement_date": "2025-06-15T00:00:00",
+    "reason": "Restock"
+  },
+  {
+    "movement_id": 7,
+    "product_id": 5,
+    "warehouse_id": 2,
+    "supplier": "WriteWell Supplies",
+    "quantity": 106,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-16T00:00:00",
+    "reason": "New stock"
+  },
+  {
+    "movement_id": 8,
+    "product_id": 3,
+    "warehouse_id": 3,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 59,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-03T00:00:00",
+    "reason": "Replacement"
+  },
+  {
+    "movement_id": 9,
+    "product_id": 10,
+    "warehouse_id": 5,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 15,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-15T00:00:00",
+    "reason": "Damaged return"
+  },
+  {
+    "movement_id": 10,
+    "product_id": 9,
+    "warehouse_id": 2,
+    "supplier": "GadgetWorld",
+    "quantity": 106,
+    "movement_type": "IN",
+    "movement_date": "2025-06-13T00:00:00",
+    "reason": "New stock"
+  },
+  {
+    "movement_id": 11,
+    "product_id": 6,
+    "warehouse_id": 3,
+    "supplier": "TechGear Ltd.",
+    "quantity": 33,
+    "movement_type": "IN",
+    "movement_date": "2025-06-16T00:00:00",
+    "reason": "Initial stock"
+  },
+  {
+    "movement_id": 12,
+    "product_id": 10,
+    "warehouse_id": 5,
+    "supplier": "GadgetWorld",
+    "quantity": 22,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-11T00:00:00",
+    "reason": "Replacement"
+  },
+  {
+    "movement_id": 13,
+    "product_id": 8,
+    "warehouse_id": 3,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 70,
+    "movement_type": "IN",
+    "movement_date": "2025-06-15T00:00:00",
+    "reason": "New product"
+  },
+  {
+    "movement_id": 14,
+    "product_id": 9,
+    "warehouse_id": 3,
+    "supplier": "DailyUse Inc.",
+    "quantity": 55,
+    "movement_type": "IN",
+    "movement_date": "2025-06-16T00:00:00",
+    "reason": "Bulk order"
+  },
+  {
+    "movement_id": 15,
+    "product_id": 9,
+    "warehouse_id": 5,
+    "supplier": "GadgetWorld",
+    "quantity": 95,
+    "movement_type": "IN",
+    "movement_date": "2025-06-07T00:00:00",
+    "reason": "New stock"
+  },
+  {
+    "movement_id": 16,
+    "product_id": 10,
+    "warehouse_id": 2,
+    "supplier": "TechGear Ltd.",
+    "quantity": 33,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-07T00:00:00",
+    "reason": "Customer return"
+  },
+  {
+    "movement_id": 17,
+    "product_id": 3,
+    "warehouse_id": 5,
+    "supplier": "WriteWell Supplies",
+    "quantity": 50,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-05T00:00:00",
+    "reason": "Damaged return"
+  },
+  {
+    "movement_id": 18,
+    "product_id": 10,
+    "warehouse_id": 5,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 52,
+    "movement_type": "IN",
+    "movement_date": "2025-06-12T00:00:00",
+    "reason": "Restock"
+  },
+  {
+    "movement_id": 19,
+    "product_id": 7,
+    "warehouse_id": 4,
+    "supplier": "WriteWell Supplies",
+    "quantity": 108,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-03T00:00:00",
+    "reason": "Damaged return"
+  },
+  {
+    "movement_id": 20,
+    "product_id": 8,
+    "warehouse_id": 4,
+    "supplier": "TechGear Ltd.",
+    "quantity": 115,
+    "movement_type": "IN",
+    "movement_date": "2025-06-10T00:00:00",
+    "reason": "New product"
+  },
+  {
+    "movement_id": 21,
+    "product_id": 4,
+    "warehouse_id": 1,
+    "supplier": "TechGear Ltd.",
+    "quantity": 79,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-02T00:00:00",
+    "reason": "Initial stock"
+  },
+  {
+    "movement_id": 22,
+    "product_id": 1,
+    "warehouse_id": 2,
+    "supplier": "TechGear Ltd.",
+    "quantity": 13,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-05T00:00:00",
+    "reason": "Replacement"
+  },
+  {
+    "movement_id": 23,
+    "product_id": 1,
+    "warehouse_id": 5,
+    "supplier": "DailyUse Inc.",
+    "quantity": 25,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-12T00:00:00",
+    "reason": "Bulk order"
+  },
+  {
+    "movement_id": 24,
+    "product_id": 5,
+    "warehouse_id": 4,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 19,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-01T00:00:00",
+    "reason": "Customer return"
+  },
+  {
+    "movement_id": 25,
+    "product_id": 3,
+    "warehouse_id": 1,
+    "supplier": "GadgetWorld",
+    "quantity": 96,
+    "movement_type": "IN",
+    "movement_date": "2025-06-11T00:00:00",
+    "reason": "New product"
+  },
+  {
+    "movement_id": 26,
+    "product_id": 3,
+    "warehouse_id": 2,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 102,
+    "movement_type": "IN",
+    "movement_date": "2025-06-10T00:00:00",
+    "reason": "Customer return"
+  },
+  {
+    "movement_id": 27,
+    "product_id": 2,
+    "warehouse_id": 4,
+    "supplier": "GadgetWorld",
+    "quantity": 21,
+    "movement_type": "IN",
+    "movement_date": "2025-06-04T00:00:00",
+    "reason": "Bulk order"
+  },
+  {
+    "movement_id": 28,
+    "product_id": 9,
+    "warehouse_id": 2,
+    "supplier": "GadgetWorld",
+    "quantity": 99,
+    "movement_type": "IN",
+    "movement_date": "2025-06-12T00:00:00",
+    "reason": "New stock"
+  },
+  {
+    "movement_id": 29,
+    "product_id": 5,
+    "warehouse_id": 5,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 79,
+    "movement_type": "IN",
+    "movement_date": "2025-06-09T00:00:00",
+    "reason": "New stock"
+  },
+  {
+    "movement_id": 30,
+    "product_id": 7,
+    "warehouse_id": 4,
+    "supplier": "WriteWell Supplies",
+    "quantity": 18,
+    "movement_type": "IN",
+    "movement_date": "2025-06-15T00:00:00",
+    "reason": "Initial stock"
+  },
+  {
+    "movement_id": 31,
+    "product_id": 6,
+    "warehouse_id": 1,
+    "supplier": "DailyUse Inc.",
+    "quantity": 52,
+    "movement_type": "IN",
+    "movement_date": "2025-06-04T00:00:00",
+    "reason": "New stock"
+  },
+  {
+    "movement_id": 32,
+    "product_id": 4,
+    "warehouse_id": 2,
+    "supplier": "DailyUse Inc.",
+    "quantity": 82,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-07T00:00:00",
+    "reason": "Restock"
+  },
+  {
+    "movement_id": 33,
+    "product_id": 9,
+    "warehouse_id": 2,
+    "supplier": "GadgetWorld",
+    "quantity": 34,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-01T00:00:00",
+    "reason": "Damaged return"
+  },
+  {
+    "movement_id": 34,
+    "product_id": 10,
+    "warehouse_id": 3,
+    "supplier": "GadgetWorld",
+    "quantity": 54,
+    "movement_type": "IN",
+    "movement_date": "2025-06-07T00:00:00",
+    "reason": "New product"
+  },
+  {
+    "movement_id": 35,
+    "product_id": 7,
+    "warehouse_id": 4,
+    "supplier": "DailyUse Inc.",
+    "quantity": 89,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-08T00:00:00",
+    "reason": "Damaged return"
+  },
+  {
+    "movement_id": 36,
+    "product_id": 1,
+    "warehouse_id": 5,
+    "supplier": "TechGear Ltd.",
+    "quantity": 71,
+    "movement_type": "IN",
+    "movement_date": "2025-06-04T00:00:00",
+    "reason": "Bulk order"
+  },
+  {
+    "movement_id": 37,
+    "product_id": 10,
+    "warehouse_id": 1,
+    "supplier": "WriteWell Supplies",
+    "quantity": 34,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-07T00:00:00",
+    "reason": "Replacement"
+  },
+  {
+    "movement_id": 38,
+    "product_id": 5,
+    "warehouse_id": 5,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 94,
+    "movement_type": "IN",
+    "movement_date": "2025-06-01T00:00:00",
+    "reason": "New stock"
+  },
+  {
+    "movement_id": 39,
+    "product_id": 10,
+    "warehouse_id": 1,
+    "supplier": "WriteWell Supplies",
+    "quantity": 44,
+    "movement_type": "IN",
+    "movement_date": "2025-06-06T00:00:00",
+    "reason": "Replacement"
+  },
+  {
+    "movement_id": 40,
+    "product_id": 1,
+    "warehouse_id": 2,
+    "supplier": "DailyUse Inc.",
+    "quantity": 110,
+    "movement_type": "IN",
+    "movement_date": "2025-06-11T00:00:00",
+    "reason": "Bulk order"
+  },
+  {
+    "movement_id": 41,
+    "product_id": 1,
+    "warehouse_id": 1,
+    "supplier": "WriteWell Supplies",
+    "quantity": 70,
+    "movement_type": "IN",
+    "movement_date": "2025-06-08T00:00:00",
+    "reason": "Replacement"
+  },
+  {
+    "movement_id": 42,
+    "product_id": 2,
+    "warehouse_id": 5,
+    "supplier": "GadgetWorld",
+    "quantity": 117,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-13T00:00:00",
+    "reason": "Customer return"
+  },
+  {
+    "movement_id": 43,
+    "product_id": 8,
+    "warehouse_id": 3,
+    "supplier": "TechGear Ltd.",
+    "quantity": 49,
+    "movement_type": "IN",
+    "movement_date": "2025-06-09T00:00:00",
+    "reason": "Damaged return"
+  },
+  {
+    "movement_id": 44,
+    "product_id": 3,
+    "warehouse_id": 4,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 73,
+    "movement_type": "IN",
+    "movement_date": "2025-06-04T00:00:00",
+    "reason": "New product"
+  },
+  {
+    "movement_id": 45,
+    "product_id": 2,
+    "warehouse_id": 2,
+    "supplier": "TechGear Ltd.",
+    "quantity": 109,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-11T00:00:00",
+    "reason": "New product"
+  },
+  {
+    "movement_id": 46,
+    "product_id": 7,
+    "warehouse_id": 3,
+    "supplier": "TechGear Ltd.",
+    "quantity": 110,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-06T00:00:00",
+    "reason": "Damaged return"
+  },
+  {
+    "movement_id": 47,
+    "product_id": 2,
+    "warehouse_id": 2,
+    "supplier": "OfficeSupplies Co.",
+    "quantity": 24,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-01T00:00:00",
+    "reason": "Damaged return"
+  },
+  {
+    "movement_id": 48,
+    "product_id": 2,
+    "warehouse_id": 4,
+    "supplier": "DailyUse Inc.",
+    "quantity": 97,
+    "movement_type": "IN",
+    "movement_date": "2025-06-11T00:00:00",
+    "reason": "New stock"
+  },
+  {
+    "movement_id": 49,
+    "product_id": 6,
+    "warehouse_id": 3,
+    "supplier": "DailyUse Inc.",
+    "quantity": 34,
+    "movement_type": "IN",
+    "movement_date": "2025-06-08T00:00:00",
+    "reason": "Bulk order"
+  },
+  {
+    "movement_id": 50,
+    "product_id": 1,
+    "warehouse_id": 5,
+    "supplier": "GadgetWorld",
+    "quantity": 114,
+    "movement_type": "OUT",
+    "movement_date": "2025-06-08T00:00:00",
+    "reason": "Damaged return"
+  }
+]
+
+and provide a json file
