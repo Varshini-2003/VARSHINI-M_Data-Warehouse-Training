@@ -1,0 +1,32 @@
+warehouse_id,location,product_id,name,net_stock,status
+1,Chennai,1,Notebook,70,OK
+1,Chennai,3,Mouse,96,OK
+1,Chennai,4,Keyboard,-79,Understocked
+1,Chennai,6,Office Chair,52,OK
+1,Chennai,8,File Folder,48,OK
+1,Chennai,10,Sticky Notes,27,Understocked
+2,Bangalore,1,Notebook,97,OK
+2,Bangalore,2,Pen,-133,Understocked
+2,Bangalore,3,Mouse,102,OK
+2,Bangalore,4,Keyboard,-82,Understocked
+2,Bangalore,5,USB Drive,-106,Understocked
+2,Bangalore,9,Charger,171,OK
+2,Bangalore,10,Sticky Notes,-33,Understocked
+3,Hyderabad,3,Mouse,-59,Understocked
+3,Hyderabad,5,USB Drive,134,OK
+3,Hyderabad,6,Office Chair,67,OK
+3,Hyderabad,7,Table,-110,Understocked
+3,Hyderabad,8,File Folder,119,OK
+3,Hyderabad,9,Charger,55,OK
+3,Hyderabad,10,Sticky Notes,54,OK
+4,Mumbai,2,Pen,218,OK
+4,Mumbai,3,Mouse,73,OK
+4,Mumbai,5,USB Drive,49,OK
+4,Mumbai,7,Table,-179,Understocked
+4,Mumbai,8,File Folder,115,OK
+5,Delhi,1,Notebook,-68,Understocked
+5,Delhi,2,Pen,-117,Understocked
+5,Delhi,3,Mouse,-50,Understocked
+5,Delhi,5,USB Drive,173,OK
+5,Delhi,9,Charger,95,OK
+5,Delhi,10,Sticky Notes,15,Understocked
