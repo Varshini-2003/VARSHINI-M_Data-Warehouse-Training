@@ -1,0 +1,21 @@
+item_id,product_name,category,stock_quantity,price
+101,Wireless Mouse,Electronics,150,899.99
+102,HDMI Cable,Electronics,300,299.99
+103,Notebook,A4 Stationery,500,59.99
+104,Gel Pen,Stationery,1000,9.99
+105,Laptop Stand,Accessories,200,1499.99
+106,USB Flash Drive 32GB,Electronics,400,499.99
+107,Water Bottle,Home & Kitchen,350,199.99
+108,Backpack,Travel Gear,180,1299.99
+109,LED Desk Lamp,Home & Kitchen,240,899.99
+110,Phone Charger,Electronics,600,299.99
+111,Bluetooth Speaker,Electronics,130,1599.99
+112,Sticky Notes,Stationery,800,19.99
+113,Extension Cord,Electronics,250,349.99
+114,Coffee Mug,Home & Kitchen,100,249.99
+115,Whiteboard Marker,Stationery,700,14.99
+116,Wireless Keyboard,Electronics,90,1399.99
+117,USB Hub 4-Port,Electronics,170,699.99
+118,Pen Drive 64GB,Electronics,200,699.99
+119,Notebook (B5),Stationery,600,79.99
+120,Power Bank 10000mAh,Electronics,110,1999.99
