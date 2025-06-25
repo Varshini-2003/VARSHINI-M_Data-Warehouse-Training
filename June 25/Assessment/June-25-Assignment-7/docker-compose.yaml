@@ -1,0 +1,66 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres_db:/var/lib/postgresql/data
+
+  webserver:
+    image: apache/airflow:2.7.1
+
+    environment:
+      AIRFLOW__EMAIL__EMAIL_BACKEND: airflow.utils.email.send_email_smtp
+      AIRFLOW__SMTP__SMTP_HOST: smtp.gmail.com
+      AIRFLOW__SMTP__SMTP_STARTTLS: True
+      AIRFLOW__SMTP__SMTP_SSL: False
+      AIRFLOW__SMTP__SMTP_PORT: 587
+      AIRFLOW__SMTP__SMTP_MAIL_FROM: your_email@gmail.com
+      AIRFLOW__SMTP__SMTP_USER: your_email@gmail.com
+      AIRFLOW__SMTP__SMTP_PASSWORD: password_from the app
+
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__WEBSERVER__SECRET_KEY: REu1dTchKJpVNmLm6iCeL9CSckn8Y2w8PyMvAiFu87k
+      AIRFLOW__CORE__FERNET_KEY: rWCOLE8kZQQxDDE9LtP3YFj_9HJl8C_gM1ScZk85uUw=
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'   
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+
+
+    command: webserver
+
+  scheduler:
+    image: apache/airflow:2.7.1
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__EMAIL__EMAIL_BACKEND: airflow.utils.email.send_email_smtp
+      AIRFLOW__SMTP__SMTP_HOST: smtp.gmail.com
+      AIRFLOW__SMTP__SMTP_STARTTLS: True
+      AIRFLOW__SMTP__SMTP_SSL: False
+      AIRFLOW__SMTP__SMTP_PORT: 587
+      AIRFLOW__SMTP__SMTP_MAIL_FROM: your_email@gmail.com
+      AIRFLOW__SMTP__SMTP_USER: your_email@gmail.com
+      AIRFLOW__SMTP__SMTP_PASSWORD: password_from the app
+
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__WEBSERVER__SECRET_KEY: REu1dTchKJpVNmLm6iCeL9CSckn8Y2w8PyMvAiFu87k
+      AIRFLOW__CORE__FERNET_KEY: rWCOLE8kZQQxDDE9LtP3YFj_9HJl8C_gM1ScZk85uUw=
+    volumes:
+      - ./dags:/opt/airflow/dags
+
+    command: scheduler
+
+volumes:
+  postgres_db:
