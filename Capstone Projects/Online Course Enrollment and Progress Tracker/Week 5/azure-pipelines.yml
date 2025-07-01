@@ -1,0 +1,32 @@
+trigger:
+  branches:
+    include:
+      - main
+
+schedules:
+- cron: "0 9 * * 1"
+  displayName: Weekly Report
+  branches:
+    include:
+      - main
+  always: true
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+
+- script: |
+    pip install pandas
+    python report_generator.py
+  displayName: 'Generate Weekly Progress Report'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'weekly_low_progress_report.csv'
+    ArtifactName: 'WeeklyReport'
+    publishLocation: 'Container'
+
