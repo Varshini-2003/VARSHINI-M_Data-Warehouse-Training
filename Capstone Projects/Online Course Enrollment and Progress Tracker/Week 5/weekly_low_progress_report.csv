@@ -1,0 +1,6 @@
+student_id,course_id,enrollment_date,student_name,course_name,completion_percent
+S008,C002,2024-04-28,Alice,Data Science,13.36
+S009,C005,2024-04-07,Carol,Cloud Computing,20.01
+S017,C005,2024-01-10,Bob,Cloud Computing,4.22
+S002,C002,2024-05-08,Eve,Data Science,32.25
+S008,C002,2024-04-04,Alice,Data Science,13.36
