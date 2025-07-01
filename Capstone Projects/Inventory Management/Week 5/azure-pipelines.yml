@@ -1,0 +1,33 @@
+trigger:
+  schedule:
+    - cron: "0 7 * * *"  # Runs daily at 7 AM UTC
+      displayName: Daily 7AM run
+      branches:
+        include:
+          - main
+      always: true
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.10'
+      addToPath: true
+
+  - script: |
+      python -m pip install --upgrade pip
+      pip install pandas
+    displayName: 'Install Dependencies'
+
+  - script: |
+      python check_reorder.py
+    displayName: 'Run Reorder Check Script'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: 'reorder_report.csv'
+      ArtifactName: 'ReorderReport'
+      publishLocation: 'Container'
+    displayName: 'Publish Reorder Report Artifact'

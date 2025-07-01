@@ -1,0 +1,14 @@
+product_id,name,warehouse_id,location,net_stock,status,category,quantity_in_stock,reorder_level,price,reorder_flag,stock_gap,severity,last_movement_date
+4,Keyboard,1,Chennai,-79,Understocked,Electronics,30,10,550.0,REORDER,-89,High,2025-06-07T00:00:00
+10,Sticky Notes,1,Chennai,27,Understocked,Stationery,200,50,5.0,REORDER,-23,Medium,2025-06-16T00:00:00
+2,Pen,2,Bangalore,-133,Understocked,Stationery,300,50,10.0,REORDER,-183,High,2025-06-13T00:00:00
+4,Keyboard,2,Bangalore,-82,Understocked,Electronics,30,10,550.0,REORDER,-92,High,2025-06-07T00:00:00
+5,USB Drive,2,Bangalore,-106,Understocked,Electronics,70,25,250.0,REORDER,-131,High,2025-06-16T00:00:00
+10,Sticky Notes,2,Bangalore,-33,Understocked,Stationery,200,50,5.0,REORDER,-83,High,2025-06-16T00:00:00
+3,Mouse,3,Hyderabad,-59,Understocked,Electronics,50,15,350.0,REORDER,-74,High,2025-06-11T00:00:00
+7,Table,3,Hyderabad,-110,Understocked,Furniture,20,5,750.0,REORDER,-115,High,2025-06-15T00:00:00
+7,Table,4,Mumbai,-179,Understocked,Furniture,20,5,750.0,REORDER,-184,High,2025-06-15T00:00:00
+1,Notebook,5,Delhi,-68,Understocked,Stationery,100,20,45.5,REORDER,-88,High,2025-06-12T00:00:00
+2,Pen,5,Delhi,-117,Understocked,Stationery,300,50,10.0,REORDER,-167,High,2025-06-13T00:00:00
+3,Mouse,5,Delhi,-50,Understocked,Electronics,50,15,350.0,REORDER,-65,High,2025-06-11T00:00:00
+10,Sticky Notes,5,Delhi,15,Understocked,Stationery,200,50,5.0,REORDER,-35,High,2025-06-16T00:00:00
